@@ -35,15 +35,19 @@ function Projects() {
 
   return (
     <main className="px-6 md:px-10 py-16 md:py-24 text-slate-100 font-mono">
-      <h1 className="text-4xl md:text-5xl font-extrabold mb-6 text-violet-300">
+      <h1
+        className="text-4xl md:text-5xl font-extrabold mb-6 text-violet-300 fade-in-up"
+        style={{ animationDelay: "0.2s" }}
+      >
         &lt;div&gt;Mina projekt (GitHub)&lt;/div&gt;
       </h1>
 
       <ul className="space-y-3 max-w-5xl">
-        {repos.map((repo) => (
+        {repos.map((repo, i) => (
           <li
             key={repo.id}
-            className="bg-black/30 border border-slate-800 rounded-lg p-4 shadow-md hover:shadow-violet-800/10 transition"
+            className="bg-black/30 border border-slate-800 rounded-lg p-4 shadow-md hover:shadow-violet-800/10 transition reveal-left"
+            style={{ animationDelay: `${0.8 + i * 0.15}s` }}
           >
             <a
               href={repo.html_url}
