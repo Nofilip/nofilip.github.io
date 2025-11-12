@@ -1,16 +1,38 @@
-# React + Vite
+# 💼 Portfolio – Filip N.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio!  
+This site showcases my journey as a **frontend student** and highlights some of my favorite projects, built using modern web technologies.
 
-Currently, two official plugins are available:
+🔗 **Live site:** [https://nofilip.github.io](https://nofilip.github.io)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🧠 About the project
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+This portfolio was built to present my skills, projects, and interests within web development.  
+It’s designed and developed with a focus on clean code, modern design, and responsive layout.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Tech stack
+
+- ⚡ **React + Vite** – for fast and modular frontend development  
+- 🎨 **Tailwind CSS** – for styling and responsive design  
+- 🌐 **React Router** – for page navigation  
+- ☁️ **GitHub Pages** – for hosting and deployment  
+- 🤖 **AI-assisted tools** – used during the development process  
+
+---
+
+## 🚀 Run locally
+
+If you want to run the project locally:
+
+# 1. Clone the repository
+git clone https://github.com/Nofilip/nofilip.github.io.git
+
+# 2. Install dependencies
+npm install
+
+# 3. Start the development server
+npm run dev
